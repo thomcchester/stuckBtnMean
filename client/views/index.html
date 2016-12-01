@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="StuckApp">
+  <meta charset="utf-8" />
+  <title>StuckBtn</title>
+  <script type="text/javascript" src="../vendors/angular/angular.min.js"></script>
+  <script type="text/javascript" src="../vendors/angular-animate/angular-animate.min.js"></script>
+  <script type="text/javascript" src="../vendors/angular-aria/angular-aria.min.js"></script>
+  <script type="text/javascript" src="../vendors/angular-material/angular-material.min.js"></script>
+  <script type="text/javascript" src="../vendors/angular-messages/angular-messages.min.js"></script>
+  <script type="text/javascript" src="../vendors/angular-route/angular-route.min.js"></script>
+  <script type="text/javascript" src="../vendors/angular-google-chart/ng-google-chart.min.js"></script>
+  <script type="text/javascript" src="../scripts/app.min.js"></script>
+<body ng-controller="StuckController" id="all">
+  <header>
+    <h1>StuckBtn</h1>
+  </header>
+
+  <md-content layout="row" layout-align="center center" layout-fill md-theme="docs-dark">
+	<form action="/" method="post">
+		<md-input-container>
+			<label>Username</label>
+			<input name="username">
+		</md-input-container>
+		<md-input-container>
+			<label>Password</label>
+			<input name="password" type="password">
+		</md-input-container>
+		<md-input-container layout-align="center center">
+			<div layout="row" layout-sm="column" layout-margin>
+				<md-button class="md-raised" type="submit" flex="50" flex-sm="100">Login</md-button>
+			</div>
+		</md-input-container>
+	</form>
+</md-content>
+
+</body>
+
+
+
+</html>

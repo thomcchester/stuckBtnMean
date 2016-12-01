@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="StuckAppRegistration">
+  <head>
+    <meta charset="utf-8">
+    <title>StuckBtn</title>
+
+    <!-- package manager scripts -->
+
+    <script type="text/javascript" src="../vendors/angular/angular.min.js"></script>
+    <script type="text/javascript" src="../vendors/angular-animate/angular-animate.min.js"></script>
+    <script type="text/javascript" src="../vendors/angular-aria/angular-aria.min.js"></script>
+    <script type="text/javascript" src="../vendors/angular-material/angular-material.min.js"></script>
+    <script type="text/javascript" src="../vendors/angular-messages/angular-messages.min.js"></script>
+    <script type="text/javascript" src="../vendors/angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="../vendors/angular-google-chart/ng-google-chart.min.js"></script>
+
+    <!-- custom scripts -->
+    <script type="text/javascript" src="../scripts/app.min.js"></script>
+    <!-- styles -->
+    <link rel="stylesheet" href="../vendors/angular-material/angular-material.min.css">
+    <!-- <link rel="stylesheet" href="../styles/style.css"> -->
+  </head>
+  <body>
+    <div ng-controller="RegistrationController">
+          <!-- Keeps main content next to one another -->
+          <div layout="column">
+            <md-content layout="row" layout-align="center center" layout-fill md-theme="docs-dark">
+            	<form ng-submit="submit(username_register, password_register)">
+            		<md-input-container>
+            			<label>Username</label>
+            			<input ng-model="username_register">
+            		</md-input-container>
+            		<md-input-container>
+            			<label>Password</label>
+            			<input ng-model="password_register" type="password">
+            		</md-input-container>
+            		<md-input-container layout-align="center center">
+            			<div layout="row" layout-sm="column" layout-margin>
+            				<md-button class="md-raised" type="submit" flex="50" flex-sm="100">Register</md-button>
+            			</div>
+            		</md-input-container>
+            	</form>
+            </md-content>
+          </div>
+      </div>
+  </body>
+</html>

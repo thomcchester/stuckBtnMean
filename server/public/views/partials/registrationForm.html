@@ -1,0 +1,17 @@
+<md-content layout="row" layout-align="center center" layout-fill md-theme="docs-dark">
+	<form ng-submit="submit(username_register, password_register)">
+		<md-input-container>
+			<label>Username</label>
+			<input ng-model="username_register">
+		</md-input-container>
+		<md-input-container>
+			<label>Password</label>
+			<input ng-model="password_register" type="password">
+		</md-input-container>
+		<md-input-container layout-align="center center">
+			<div layout="row" layout-sm="column" layout-margin>
+				<md-button class="md-raised" type="submit" flex="50" flex-sm="100">Register</md-button>
+			</div>
+		</md-input-container>
+	</form>
+</md-content>

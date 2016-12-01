@@ -1,0 +1,36 @@
+{
+  "name": "stuckbtn",
+  "version": "1.0.0",
+  "description": "a team button for stuck",
+  "main": "index.js",
+  "scripts": {
+    "start": "grunt && node server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Chester",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-aria": "^1.5.8",
+    "angular-google-chart": "^0.1.0",
+    "angular-material": "^1.1.1",
+    "angular-messages": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "angularjs-slider": "^5.8.7",
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^4.6.8",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-session": "^1.0.2",
+    "session": "^0.1.0"
+  }
+}
